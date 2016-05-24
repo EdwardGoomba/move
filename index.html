@@ -5,12 +5,17 @@
     <link rel='stylesheet' href='move.css'/>
     <link rel="icon" href="/evd.ico" type="image/x-icon">
   </head>
+
   <body>
     <div class="main">
       <div class="container">
         <h1>Move</h1>
         <p>Form healthy habits to take your fitness to the next level.</p>
-        <a class="btn" href="https://s3.amazonaws.com/codecademy-content/projects/move/index.html">Start Now</a>
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="search" placeholder="Find your city">
+          </div>
+        </form>
       </div>
     </div>
 
@@ -55,6 +60,8 @@
       </div>
     </div>
 
+    <script src="move.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
   </body>
 </html>
